@@ -1,5 +1,10 @@
 .banner {
-  height: 48px;
+  height: 0px;
   display: flex;
   background: #eee;
+  transition: height .3s;
+}
+
+.bannerVisible {
+  height: 48px;
 }
